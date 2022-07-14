@@ -1,0 +1,1 @@
+export const STAR_WARS_API = 'https://swapi.dev/api/starships/'
