@@ -7,7 +7,6 @@
 
 .shipCard{
     display: flex;
-    background-color: bisque;
     background-size: auto;
     border: 5rem solid bisque;
     border-radius: 20px;
@@ -16,10 +15,13 @@
 
 }
 
+.shipCard:hover{
+    background-color: red;
+}
+
 .namePlace{
     display: flex;
     align-self: center;
-
 }
 
 .layout{
@@ -27,5 +29,6 @@
     flex-direction: column;
     align-self: center;
     align-items: center;
+    background-color: burlywood;
     
 }
